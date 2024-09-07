@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Wemerson José da Cunha">
+    <title>Fotografo Daniel</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <script src="js/scripts.js" defer></script>
+    <link rel="stylesheet" href="css/style.css" />
+
+    <style>
+      body {
+        background-color: #ededed;
+      }
+
+      .container {
+        margin-bottom: 6em;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary mb-3">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#page_inicial"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#page_description">Description</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#page_cards_img">Tags</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- header -->
+    <header class="row text-center mb-5" id="page_inicial">
+      <div id="container">
+        <img
+          src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2f6ed75c-40b1-4565-91f5-50446dd8c002/d7ygiub-3c4785ff-4ee9-4f28-ab68-ff68270a296c.jpg/v1/fill/w_894,h_894,q_70,strp/portal_logo_3d_by_fashfish9_d7ygiub-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTAyNCIsInBhdGgiOiJcL2ZcLzJmNmVkNzVjLTQwYjEtNDU2NS05MWY1LTUwNDQ2ZGQ4YzAwMlwvZDd5Z2l1Yi0zYzQ3ODVmZi00ZWU5LTRmMjgtYWI2OC1mZjY4MjcwYTI5NmMuanBnIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.MgvlPrtPZlRuoMpaRKbCyTqATfzkUv59QWs5yTtFJoA"
+          alt="Logo"
+          width="100"
+          height="100"
+          class="d-inline-block align-text-top"
+        />
+        <h1>Daniel de Souza</h1>
+      </div>
+    </header>
+
+    <!-- Titulo -->
+    <div class="text-center mb-5">
+      <figure class="text-center">
+        <blockquote class="blockquote">
+          <h1 class="display-5">Através das Lentes: Meu Mundo Fotográfico</h1>
+        </blockquote>
+        <figcaption class="blockquote-footer">Daniel de Souza.</figcaption>
+      </figure>
+    </div>
+
+    <!-- Slides iniciais -->
+    <div class="container text-center text-center">
+      <div class="row gx-5">
+        <div id="carouselCaptions" class="carousel slide w-50">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="https://images.unsplash.com/photo-1465145782865-09532f760e6b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="d-block w-100"
+                alt="foto de Daniel"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Rio de sentimentos</h5>
+                <p>Foto inspirada nas emoções que nos rodeiam.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://images.unsplash.com/photo-1523673671576-35ff54e94bae?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="d-block w-100"
+                alt="foto de Daniel"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Tons neutros</h5>
+                <p>Foto desbravando os tons neutros de nossas vidas.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://plus.unsplash.com/premium_photo-1663054609755-5be53e6d599a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="d-block w-100"
+                alt="foto de Daniel"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>A natureza clama</h5>
+                <p>Foto inspirada na beleza que tanto destruimos.</p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div id="carouselCaptions2" class="carousel slide w-50">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselCaptions2"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselCaptions2"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselCaptions2"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="d-block w-100"
+                alt="Foto de Daniel"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Momento especial</h5>
+                <p>Foto de um casal que sonharam com este dia.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://images.unsplash.com/photo-1473177027534-53d906e9abcf?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="d-block w-100"
+                alt="Foto de Daniel"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Uma nova vida</h5>
+                <p>Fim de um ciclo, e inicio de uma vida.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://images.unsplash.com/photo-1675173712832-60fe0439853a?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="d-block w-100"
+                alt="Foto de Daniel"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>O futuro nos espera</h5>
+                <p>Olhamos e vemos a nossa vida que ainda não conhecemos.</p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselCaptions2"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselCaptions2"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Texto auxiliar -->
+    <div class="container" id="page_description">
+      <div class="row">
+        <div class="col-4">
+          <img
+            src="https://images.unsplash.com/photo-1723581206717-365ff76fb7a6?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            class="img-fluid rounded-start"
+            alt="Fotografo"
+          />
+        </div>
+        <div class="col-8">
+          <h2 class="display-6 text-center mb-4">
+            Conheça Daniel de Souza: Um Olhar Singular Sobre a Fotografia
+          </h2>
+          <p class="mb-4">
+            Daniel de Souza é um fotógrafo brasileiro conhecido por sua
+            habilidade única de capturar não apenas imagens, mas emoções e
+            histórias que ecoam através do tempo. Com um olhar sensível e uma
+            paixão inata pela arte de fotografar, ele vê a fotografia como uma
+            linguagem universal que conecta almas e celebra a vida em todas as
+            suas formas.
+          </p>
+          <p class="mb-4">
+            Nascido em uma pequena cidade, Daniel sempre foi fascinado pelas
+            pequenas belezas que o mundo tem a oferecer. Desde cedo, ele sentiu
+            o desejo de eternizar momentos, de preservar o que há de mais
+            genuíno na humanidade. Com sua câmera, ele começou a explorar o
+            mundo ao seu redor, inicialmente fotografando amigos, familiares e
+            os encantos de sua cidade natal. À medida que sua técnica evoluía,
+            também crescia sua sensibilidade para capturar aquilo que muitas
+            vezes passa despercebido: um sorriso tímido, um olhar perdido, um
+            gesto de carinho.
+          </p>
+          <p class="mb-4">
+            Hoje, Daniel é reconhecido por seu estilo inconfundível, marcado
+            pela autenticidade e pelo compromisso de contar histórias reais. Seu
+            portfólio inclui desde retratos íntimos até grandes eventos, mas seu
+            foco principal é sempre o mesmo: capturar a essência humana. Ele
+            acredita que cada pessoa tem uma história única e valiosa para
+            contar, e é essa história que ele se propõe a revelar por meio de
+            suas lentes.
+          </p>
+          <p class="mb-4">
+            Para Daniel, a fotografia é mais do que um trabalho; é uma missão.
+            Em cada sessão, ele busca criar uma conexão verdadeira com seus
+            clientes, fazendo-os sentir à vontade e livres para serem eles
+            mesmos. Essa abordagem pessoal e empática permite que ele capture
+            não apenas rostos, mas almas – um detalhe, um gesto, uma emoção que
+            revela algo profundo sobre quem está diante de sua câmera.
+          </p>
+          <p class="mb-4">
+            Seu trabalho é uma celebração da vida, das conexões humanas e das
+            emoções que nos tornam quem somos. Através de suas lentes, Daniel
+            nos convida a ver o mundo de uma maneira diferente, a perceber a
+            beleza nos detalhes mais simples e a valorizar os momentos que
+            muitas vezes tomamos como garantidos.
+          </p>
+          <p class="card-text">
+            <small class="text-body-secondary"
+              >Frase tipica do fotografo: "Capturar a essência da vida em cada
+              clique, transformando momentos em memórias eternas."</small
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cards img -->
+    <div class="container" id="page_cards_img">
+      <div class="row row-cols-4">
+        <div class="col mb-3">
+          <div class="card">
+            <img
+              src="https://images.unsplash.com/photo-1503463168353-9d883c7f5255?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">A Magia dos Pequenos Momentos</h5>
+              <p class="card-text">
+                Esta foto é um exemplo da minha busca por capturar a
+                espontaneidade da infância. Gosto de observar como as crianças
+                interagem com o mundo ao seu redor, transformando momentos
+                simples em pura magia.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-3">
+          <div class="card">
+            <img
+              src="https://images.unsplash.com/photo-1527563427650-2fa0b1558cba?q=80&w=2067&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">A Doçura da Amizade</h5>
+              <p class="card-text">
+                Esta foto ilustra como a amizade na infância é pura e
+                espontânea. Ao capturar esses momentos, busco revelar a beleza
+                da união e da inocência que compartilham, mostrando como o
+                simples gesto de andar juntos contam lindas histórias.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-3">
+          <div class="card">
+            <img
+              src="https://images.unsplash.com/photo-1624003652795-a9f73df756fa?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Conexões Eternas</h5>
+              <p class="card-text">
+                Gosto de capturar a força do vínculo familiar. Nesta imagem que
+                tirei, em preto e branco, vejo a simplicidade dos gestos e
+                toques, o contraste destacam o amor incondicional e a segurança
+                que um toque de mão pode transmitir.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-3">
+          <div class="card">
+            <img
+              src="https://images.unsplash.com/photo-1481653125770-b78c206c59d4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">O Primeiro Passo de Uma Nova Jornada</h5>
+              <p class="card-text">
+                Momentos como este, em que um casal se entrega à dança, são a
+                expressão pura de um compromisso eterno. Quando fotografo uma
+                cena assim, procuro capturar muito mais do que o movimento.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-3">
+          <div class="card">
+            <img
+              src="https://images.unsplash.com/photo-1535310172250-0dcb6b63324e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Olhares que Contam Histórias</h5>
+              <p class="card-text">
+                É sobre capturar a profundidade de cada momento através do olhar
+                humano. Através das minhas lentes, busco revelar emoções
+                invisíveis, onde cada expressão guarda uma narrativa única.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-3">
+          <div class="card">
+            <img
+              src="https://images.unsplash.com/photo-1609106658915-454eef456286?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Entre Pensamentos e Emoções</h5>
+              <p class="card-text">
+                Nesta imagem, cada traço no rosto e cada gesto trazem à tona uma
+                reflexão silenciosa. O olhar fixo transmite uma mistura de
+                vulnerabilidade e força.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer" id="page_footer">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item">
+            <a
+              class="nav-link text-body-secondary"
+              aria-current="page"
+              href="#page_inicial"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-body-secondary" href="#page_description"
+              >Description</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-body-secondary" href="#page_cards_img"
+              >Tags</a
+            >
+          </li>
+        </ul>
+        <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
+      </footer>
+    </div>
+  </body>
+</html>
